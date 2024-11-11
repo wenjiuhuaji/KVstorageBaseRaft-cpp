@@ -56,7 +56,7 @@ make
 之后在目录bin就有对应的可执行文件生成，
 ```
 // make sure you in bin directory ,and this has a test.conf file
-raftCoreRun -n 3 -f test.conf
+./raftCoreRun -n 3 -f test.conf
 ```
 这里更推荐一键运行，使用clion/clion nova，点击这个按钮即可：
 ![img.png](docs/images/img.png)
